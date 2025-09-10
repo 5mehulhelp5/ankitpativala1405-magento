@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-variable/view/adminhtml/web/js/custom-directive-generator.js

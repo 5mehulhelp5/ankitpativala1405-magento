@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-configurable-product/view/adminhtml/web/js/components/price-configurable.js

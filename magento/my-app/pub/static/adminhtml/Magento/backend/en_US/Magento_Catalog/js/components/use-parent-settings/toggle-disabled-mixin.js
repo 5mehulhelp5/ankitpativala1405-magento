@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-catalog/view/adminhtml/web/js/components/use-parent-settings/toggle-disabled-mixin.js

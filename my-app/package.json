@@ -5,7 +5,7 @@
     "dependencies": {
         "@babel/plugin-transform-typescript": "7.20.2",
         "@scandipwa/eslint-config": "0.2.2",
-        "@scandipwa/scandipwa": "6.4.0",
+        "@scandipwa/scandipwa": "6.2.3",
         "@scandipwa/scandipwa-scripts": "2.5.0",
         "@scandipwa/ts-server-plugin": "0.0.5",
         "@tilework/mosaic": "1.0.1",
@@ -21,6 +21,7 @@
         "@babel/plugin-proposal-private-property-in-object": "7.21.11",
         "@babel/plugin-transform-private-property-in-object": "7.24.1",
         "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+        "@types/minimatch": "^5.1.2",
         "react-refresh": "^0.17.0",
         "react-scripts": "^5.0.1",
         "webpack": "^5.101.3"
@@ -37,7 +38,12 @@
     },
     "scripts": {
         "start": "scandipwa-scripts start",
-        "build": "scandipwa-scripts build"
+        "build": "scandipwa-scripts build",
+        "starts": "react-scripts start",
+        "builds": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint --ext .js,.jsx src"
     },
     "browserslist": {
         "production": [
@@ -51,5 +57,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": "https://40kskudemo.scandipwa.com/"
+    "proxy": "https://tech-demo.scandipwa.com/"
 }

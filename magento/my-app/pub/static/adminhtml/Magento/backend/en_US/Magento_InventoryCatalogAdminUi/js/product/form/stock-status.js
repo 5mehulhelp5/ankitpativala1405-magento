@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-inventory-catalog-admin-ui/view/adminhtml/web/js/product/form/stock-status.js

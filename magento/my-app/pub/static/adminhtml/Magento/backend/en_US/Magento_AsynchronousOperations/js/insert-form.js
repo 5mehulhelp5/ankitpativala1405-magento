@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-asynchronous-operations/view/adminhtml/web/js/insert-form.js

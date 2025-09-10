@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-translation/view/base/web/js/mage-translation-dictionary.js
