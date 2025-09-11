@@ -20,3 +20,55 @@ npm start
 
 npm install --save typescript @types/react @types/react-dom
 npx tsc --init
+
+----- > Using tailwind < -----
+cd my-app
+npm install tailwindcss@3.4.1 postcss autoprefixer --save-dev
+npx tailwindcss init
+
+---> Tailwind.config.js
+
+/* eslint-disable semi */
+/* eslint-disable babel/semi */
+/* eslint-disable quotes */
+/* eslint-disable indent */
+export default {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
+    "./node_modules/@scandipwa/scandipwa/src/**/*.{js,jsx,ts,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+---> postcss.config.js
+
+/* eslint-disable semi */
+/* eslint-disable indent */
+/* eslint-disable babel/semi */
+export default {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+
+npm install stylelint-config-tailwindcss --save-dev
+
+--->.styleintrc
+"extends": [
+        "stylelint-config-recommended-scss",
+        "stylelint-config-tailwindcss"
+    ],
+
+
+
+
+
+
+
+
+

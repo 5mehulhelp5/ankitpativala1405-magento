@@ -1,0 +1,5 @@
+main.jsx --> provider
+Store Create 
+reducer Create
+initialState Create
+Actions Create

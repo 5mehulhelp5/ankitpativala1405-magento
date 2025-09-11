@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-newsletter/view/frontend/web/js/subscription-status-resolver.js
