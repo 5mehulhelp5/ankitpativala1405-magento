@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-page-cache/view/frontend/web/js/page-cache.js

@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-inventory-sales-admin-ui/view/adminhtml/web/js/stock/grid/cell/sales-channels.js

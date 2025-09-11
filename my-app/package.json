@@ -3,28 +3,23 @@
     "version": "0.0.1",
     "license": "OSL-3.0",
     "dependencies": {
-        "@babel/plugin-transform-typescript": "7.20.2",
-        "@scandipwa/eslint-config": "0.2.2",
-        "@scandipwa/scandipwa": "6.2.3",
+        "@scandipwa/scandipwa": "6.4.0",
         "@scandipwa/scandipwa-scripts": "2.5.0",
+        "@scandipwa/eslint-config": "0.2.2",
         "@scandipwa/ts-server-plugin": "0.0.5",
         "@tilework/mosaic": "1.0.1",
         "@tilework/mosaic-craco": "1.0.1",
-        "@types/node": "20.12.4",
         "@types/react": "18.2.74",
+        "@types/node": "20.12.4",
         "postcss": "8.4.5",
         "react": "18.2.0",
         "react-dom": "18.2.0",
-        "react-redux": "8.0.2"
+        "react-redux": "8.0.2",
+        "@babel/plugin-transform-typescript": "7.20.2"
     },
     "devDependencies": {
         "@babel/plugin-proposal-private-property-in-object": "7.21.11",
-        "@babel/plugin-transform-private-property-in-object": "7.24.1",
-        "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
-        "@types/minimatch": "^5.1.2",
-        "react-refresh": "^0.17.0",
-        "react-scripts": "^5.0.1",
-        "webpack": "^5.101.3"
+        "@babel/plugin-transform-private-property-in-object": "7.24.1"
     },
     "scandipwa": {
         "type": "theme",
@@ -38,12 +33,7 @@
     },
     "scripts": {
         "start": "scandipwa-scripts start",
-        "build": "scandipwa-scripts build",
-        "starts": "react-scripts start",
-        "builds": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "lint": "eslint --ext .js,.jsx src"
+        "build": "scandipwa-scripts build"
     },
     "browserslist": {
         "production": [
@@ -57,5 +47,5 @@
             "last 1 safari version"
         ]
     },
-    "proxy": "https://tech-demo.scandipwa.com/"
+    "proxy": "https://40kskudemo.scandipwa.com/"
 }

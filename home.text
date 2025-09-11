@@ -1,0 +1,22 @@
+npx create-scandipwa-app my-app
+cd my-app
+npm install react-refresh --save-dev
+npm install @pmmmwh/react-refresh-webpack-plugin --save
+npm install webpack@5.101.3 --save-dev
+
+----- > package.json change < -----
+1. Change Theme -- >   "proxy": "https://luma-demo.scandipwa.com"
+2. Theme Override -- >  "themeAlias": "Source",
+
+rm -rf node_modules package-lock.json
+npm install
+npm start
+
+----- > OverRide Logic / Style / Components < -----
+scandipwa override component Header --style override
+rm -rf node_modules package-lock.json
+npm install
+npm start
+
+npm install --save typescript @types/react @types/react-dom
+npx tsc --init

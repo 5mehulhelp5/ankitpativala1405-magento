@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-catalog/view/frontend/web/js/product/query-builder.js

@@ -1,0 +1,57 @@
+{
+    "name": "my-app2",
+    "version": "0.0.1",
+    "license": "OSL-3.0",
+    "dependencies": {
+        "@babel/plugin-transform-typescript": "7.20.2",
+        "@scandipwa/eslint-config": "0.2.2",
+        "@scandipwa/scandipwa": "6.4.0",
+        "@scandipwa/scandipwa-scripts": "2.5.0",
+        "@scandipwa/ts-server-plugin": "0.0.5",
+        "@tilework/mosaic": "1.0.1",
+        "@tilework/mosaic-craco": "1.0.1",
+        "@types/node": "20.12.4",
+        "@types/react": "18.2.74",
+        "postcss": "8.4.5",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-redux": "8.0.2",
+        "react-scripts": "^5.0.1"
+    },
+    "devDependencies": {
+        "@babel/plugin-proposal-private-property-in-object": "7.21.11",
+        "@babel/plugin-transform-private-property-in-object": "7.24.1",
+        "@types/minimatch": "^6.0.0",
+        "fork-ts-checker-webpack-plugin": "^7.2.13",
+        "react-refresh": "^0.17.0",
+        "webpack": "^5.101.3"
+    },
+    "scandipwa": {
+        "type": "theme",
+        "locales": {
+            "en_US": true
+        },
+        "themeAlias": "Source",
+        "parentTheme": "@scandipwa/scandipwa",
+        "extensions": {
+            "@scandipwa/ts-server-plugin": true
+        }
+    },
+    "scripts": {
+        "start": "NODE_OPTIONS=--max-old-space-size=8192 scandipwa-scripts start",
+        "build": "NODE_OPTIONS=--max-old-space-size=8192 scandipwa-scripts build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "proxy": "https://luma-demo.scandipwa.com"
+}

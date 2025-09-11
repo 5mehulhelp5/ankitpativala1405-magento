@@ -1,0 +1,34 @@
+.custom-home .hero {
+  text-align: center;
+  padding: 40px 20px;
+}
+.custom-home .hero h1 {
+  font-size: 38px;
+  margin: 0 0 10px;
+}
+.custom-home .hero p {
+  font-size: 18px;
+  color: #666;
+}
+.custom-home .hero .btn.primary {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background: #1976d2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.custom-home .features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+.custom-home .features .feature {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 20px;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=data:application/json,%7B%22version%22%3A3%2C%22sources%22%3A%5B%22%5C%2Fstatic%5C%2Ffrontend%5C%2FAnkit%5C%2Fcustom%5C%2Fen_US%5C%2Fcss%5C%2Fsource%5C%2F_extend.less%22%5D%2C%22names%22%3A%5B%5D%2C%22mappings%22%3A%22AACA%2CYACE%3BEACE%2CkBAAA%3BEACA%2CkBAAA%3B%3BAAHJ%2CYACE%2CMAGE%3BEACE%2CeAAA%3BEACA%2CgBAAA%3B%3BAANN%2CYACE%2CMAOE%3BEACE%2CeAAA%3BEACA%2CWAAA%3B%3BAAVN%2CYACE%2CMAWE%2CKAAI%3BEACF%2CqBAAA%3BEACA%2CgBAAA%3BEACA%2CkBAAA%3BEACA%2CmBAAA%3BEACA%2CWAAA%3BEACA%2CqBAAA%3BEACA%2CkBAAA%3B%3BAAnBN%2CYAsBE%3BEACE%2CaAAA%3BEACA%2CuBAAuB%2CcAAvB%3BEACA%2CSAAA%3BEACA%2CaAAA%3B%3BAA1BJ%2CYAsBE%2CUAKE%3BEACE%2CkBAAA%3BEACA%2CmBAAA%3BEACA%2CaAAA%3BEACA%2CkBAAA%22%7D */

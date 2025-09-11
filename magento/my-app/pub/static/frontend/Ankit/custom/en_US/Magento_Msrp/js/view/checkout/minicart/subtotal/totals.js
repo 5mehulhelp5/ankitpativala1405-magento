@@ -1,0 +1,1 @@
+/home/admin1/Desktop/ankit/magento/my-app/vendor/magento/module-msrp/view/frontend/web/js/view/checkout/minicart/subtotal/totals.js
