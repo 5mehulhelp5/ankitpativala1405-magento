@@ -1,8 +1,8 @@
 npx create-scandipwa-app my-app
 cd my-app
 npm install react-refresh --save-dev
-npm install @pmmmwh/react-refresh-webpack-plugin --save
 npm install webpack@5.101.3 --save-dev
+npm install @pmmmwh/react-refresh-webpack-plugin --save
 
 ----- > package.json change < -----
 1. Change Theme -- >   "proxy": "https://luma-demo.scandipwa.com"
