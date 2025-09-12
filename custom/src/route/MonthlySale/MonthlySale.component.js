@@ -18,7 +18,7 @@
 import { PureComponent } from 'react';
 import './MonthlySale.style';
 import { connect } from 'react-redux';
-import { increase, decrease } from 'Store/Counter/Counter.action';
+import { increase, decrease, reset } from 'Store/Counter/Counter.action';
 
 class MonthlySaleComponent extends PureComponent {
     handleIncrement = () => {
@@ -54,8 +54,6 @@ const mapStateToProps = (state) => ({
     value: state.CounterReducer.value
 });
 
-const mapDispatchToProps = { increase, decrease };
+const mapDispatchToProps = { increase, decrease, reset };
 
 export default connect(mapStateToProps, mapDispatchToProps)(MonthlySaleComponent);
-
-// export default MonthlySaleComponent;
