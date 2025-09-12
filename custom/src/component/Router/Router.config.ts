@@ -51,6 +51,7 @@ export enum RouterSwitchItemType {
     STYLE_GUIDE = 'STYLE_GUIDE',
     URL_REWRITES = 'URL_REWRITES',
     MOTHLY = "MOTHLY",
+    MOTHLY_SALE = "MOTHLY_SALE",
 }
 
 export enum RouterAfterItemType {

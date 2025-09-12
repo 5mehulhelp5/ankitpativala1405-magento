@@ -175,7 +175,7 @@ export class RouterComponent extends PureComponent<RouterComponentProps, RouterC
         {
             component: <Route path={ withStoreRegex('/monthly-sale') } render={ () => <MonthlySaleComponent /> } />,
             position: 59,
-            name: RouterSwitchItemType.MOTHLY,
+            name: RouterSwitchItemType.MOTHLY_SALE,
         },
         {
             // @ts-ignore Due to problems with extended components

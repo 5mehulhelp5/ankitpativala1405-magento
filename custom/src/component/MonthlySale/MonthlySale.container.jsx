@@ -6,10 +6,6 @@
 /* eslint-disable simple-import-sort/imports */
 import { connect } from "react-redux";
 import MonthlySaleComponents from "./MonthlySale.component";
-import {
-    decrementMonthlySale,
-    incrementMonthlySale,
-} from "Store/MonthlySale/MonthlySale.action";
 
 export const mapStateToProps = (state) => {
     console.log("Full Redux State:", state);
@@ -20,9 +16,8 @@ export const mapStateToProps = (state) => {
     };
 };
 
-export const mapDispatchToProps = (dispatch) => ({
-    increment: () => dispatch(incrementMonthlySale()),
-    decrement: () => dispatch(decrementMonthlySale()),
+export const mapDispatchToProps = () => ({
+   
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(MonthlySaleComponents);
